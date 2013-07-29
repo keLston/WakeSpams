@@ -1,0 +1,29 @@
+## Title: Wake|cFFCC1100Spams|rOptions
+## Notes: Blizzard Interface Options for WakeSpams.
+## Interface: 50001
+## Version: 2.1.82-release
+## OptionalDeps: Ace3
+## Dependencies: WakeSpams
+## X-Curse-Packaged-Version: 2.1.82-release
+## X-Curse-Project-Name: WakeSpams
+## X-Curse-Project-ID: wakespams
+## X-Curse-Repository-ID: wow/wakespams/mainline
+
+## X-License: GNU General Public License version 3 (GPLv3)
+## X-Revision: 81
+## X-Date: 2012-10-12T18:09:27Z
+## Author: Cyrila
+## X-Author-Faction: Horde
+## X-Author-Server: Bloodfeather-EU
+## X-Website: http://www.wowace.com/addons/wakespams/
+## X-Credits: WowAce.com, Curse.com, WoWWiki.com, WoWhead.com, Wake, Blizzard, Lua.org
+
+
+#@no-lib-strip@
+libs\AceGUI-3.0\AceGUI-3.0.xml
+libs\LibAboutPanel\lib.xml
+libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+libs\AceConfig-3.0\AceConfig-3.0.xml
+#@end-no-lib-strip@
+
+config.lua

@@ -1,0 +1,50 @@
+------------------------------------------------------------------------
+r82 | cyrila | 2012-10-16 07:31:32 +0000 (Tue, 16 Oct 2012) | 1 line
+Changed paths:
+   A /tags/2.1.82-release (from /trunk:81)
+
+Tagging as 2.1.82-release
+------------------------------------------------------------------------
+r81 | cyrila | 2012-10-12 18:09:27 +0000 (Fri, 12 Oct 2012) | 7 lines
+Changed paths:
+   M /trunk/SpellList.lua
+
+Bugfixes:
+- Warriors should again be able to see the options.
+
+Default Spells Changes:
+- "Concussion Blow" has been removed (Warrior).
+- "Last Stand" spell ID has been corrected (Warrior).
+- "Taunt" has been added (Warrior).
+------------------------------------------------------------------------
+r79 | cyrila | 2012-09-28 08:34:45 +0000 (Fri, 28 Sep 2012) | 3 lines
+Changed paths:
+   M /trunk/WakeSpams.lua
+
+Bugfixes
+
+- Ticket #14: Spellcasts on unknown targets should no longer cause errors.
+------------------------------------------------------------------------
+r77 | cyrila | 2012-09-25 05:02:18 +0000 (Tue, 25 Sep 2012) | 1 line
+Changed paths:
+   M /trunk/WakeSpams.lua
+
+- typo...
+------------------------------------------------------------------------
+r75 | cyrila | 2012-09-25 04:54:48 +0000 (Tue, 25 Sep 2012) | 3 lines
+Changed paths:
+   M /trunk/WakeSpams.lua
+
+- Clear profile database since pre-mop settings might cause problems.
+
+This update will reset any previous WakeSpams settings.
+------------------------------------------------------------------------
+r73 | cyrila | 2012-09-25 04:45:03 +0000 (Tue, 25 Sep 2012) | 1 line
+Changed paths:
+   M /trunk/SpellList.lua
+   M /trunk/WakeSpams.lua
+   M /trunk/WakeSpams.toc
+   M /trunk/WakeSpamsOptions/WakeSpamsOptions.toc
+
+MoP compatibility update (Credits to zefter)
+------------------------------------------------------------------------
